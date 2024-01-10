@@ -37,7 +37,7 @@ const InfoForm = ({ handleSetEntry }: InfoFormProps) => {
           <InfoInput inputType="amount" entry={entry} setEntry={setEntry} />
           <div className="input-wrapper">
             <label htmlFor="" className="input-label">
-              <h2>Title</h2>
+              <h2>Type</h2>
             </label>
             <select
               required
