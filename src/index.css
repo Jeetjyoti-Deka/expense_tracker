@@ -41,12 +41,18 @@ h1 {
   height: 100%;
   border-radius: 8px;
   padding: 8px 16px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .entry-list {
   display: flex;
   flex-direction: column;
   row-gap: 5px;
+}
+
+.info::-webkit-scrollbar {
+  display: none;
 }
 
 .table-bar {
